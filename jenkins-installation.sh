@@ -13,7 +13,8 @@ sudo systemctl start jenkins
 sudo systemctl enable jenkins
 echo "===================================="
 
-sudo systemctl status jenkins
+sudo systemctl status jenkins > jenkins_status.txt
+sudo cat jenkins_status.txt
 
 echo "===================================="
 
